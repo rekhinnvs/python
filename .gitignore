@@ -1,2 +1,4 @@
 .vscode/
 zomato.csv
+.pytest_cache/
+pytests/__pycache__/
