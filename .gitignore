@@ -3,3 +3,4 @@ zomato.csv
 .pytest_cache/
 pytests/__pycache__/
 myenv/
+__pycache__/
