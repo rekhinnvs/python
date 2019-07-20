@@ -23,12 +23,15 @@ def iterating_reverse():
 #iterating_reverse()
 
 def regular_expressions():
-    pattern = re.compile("[a-z]+ *")
+    pattern = re.compile("[a-z]+")
     #print(pattern)
-    m = pattern.match("hello worlab")
+    m = pattern.match("hello world")
 
     # Returns the match
-    #print(m.group())
+    print(m.group())
+
+    # returns a tuple containing the strings for all the subgroups
+    print(m.groups())
 
     # returns all the matches
     p = re.compile(r'\d+')
@@ -39,7 +42,8 @@ def regular_expressions():
     p = re.compile(r'\d+')
     iterator = p.findall('12 drummers drumming, 11 pipers piping, 10 lords a-leaping')
     for value in iterator:
-        print(value)
+        pass
+        #print(value)
 
     
 
